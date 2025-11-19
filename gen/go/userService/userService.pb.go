@@ -491,7 +491,7 @@ const file_userService_userService_proto_rawDesc = "" +
 	"\n" +
 	"UpdateUser\x12\x1e.userService.UpdateUserRequest\x1a\x1f.userService.UpdateUserResponse\x12M\n" +
 	"\n" +
-	"DeleteUser\x12\x1e.userService.DeleteUserRequest\x1a\x1f.userService.DeleteUserResponseB:Z8github.com/kkmankk/protos/gen/go/userService;userServiceb\x06proto3"
+	"DeleteUser\x12\x1e.userService.DeleteUserRequest\x1a\x1f.userService.DeleteUserResponseB:Z8github.com/KKmanKK/protos/gen/go/userService;userServiceb\x06proto3"
 
 var (
 	file_userService_userService_proto_rawDescOnce sync.Once
