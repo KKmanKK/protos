@@ -1,4 +1,4 @@
-module github.com/KKmanKK/protos
+module github.com/kkmankk/protos
 
 go 1.25.1
 
