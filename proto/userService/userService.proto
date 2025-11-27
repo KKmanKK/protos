@@ -21,14 +21,16 @@ message GetUserResponse{
 }
 
 message CreateUserRequest{
-    string login = 1;
-    string password = 2;
-    string email = 3;
+    string id = 1;
+    string login = 2;
+    string password = 3;
+    optional string email = 4;
 }
 message CreateUserResponse{
-    string login = 1;
-    string password = 2;
-    string email = 3;
+    string id = 1;
+    string login = 2;
+    string password = 3;
+    string email = 4;
 }
 
 message UpdateUserRequest{
@@ -37,9 +39,10 @@ message UpdateUserRequest{
     string email = 3;
 }
 message UpdateUserResponse{
-    string login = 1;
-    string password = 2;
-    string email = 3;
+    string id = 1;
+    string login = 2;
+    string password = 3;
+    string email = 4;
 }
 
 message DeleteUserRequest{
